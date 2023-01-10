@@ -8,16 +8,20 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var isNaviagionBarHidden : Bool = false
     var body: some View {
         
-        
-            
+        NavigationView{
             ZStack(alignment: .bottomTrailing) {
                 
                 VStack(alignment: .leading ,spacing: 0){
                     HStack{
-                        Image(systemName: "line.horizontal.3")
-                            .font(.largeTitle)
+                        NavigationLink(destination: MyList(isNavigationBarHidden: self.$isNaviagionBarHidden)) {
+                            Image(systemName: "line.horizontal.3")
+                                .font(.largeTitle)
+                                .foregroundColor(Color.black)
+                        }
+                        
                         Spacer()
                         Image(systemName: "person.crop.circle.fill")
                             .font(.largeTitle)
@@ -49,6 +53,14 @@ struct ContentView: View {
                     .padding(20)
                     .shadow(radius: 20)
             }
+            .navigationBarTitle("뒤로가기")
+            .navigationBarHidden(self.isNaviagionBarHidden)
+            .onAppear{
+                self.isNaviagionBarHidden = true
+            }
+            
+        } // navigatioView
+            
         
         
     }

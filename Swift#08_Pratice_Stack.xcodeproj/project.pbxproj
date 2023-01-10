@@ -14,6 +14,7 @@
 		9896F9B0296D09DA0030AD17 /* MyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896F9AF296D09DA0030AD17 /* MyCard.swift */; };
 		9896F9B2296D38EC0030AD17 /* BasicCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896F9B1296D38EC0030AD17 /* BasicCard.swift */; };
 		9896F9B4296D49A10030AD17 /* BasicCardOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896F9B3296D49A10030AD17 /* BasicCardOne.swift */; };
+		9896F9B6296D5C2D0030AD17 /* MyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9896F9B5296D5C2D0030AD17 /* MyList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		9896F9AF296D09DA0030AD17 /* MyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCard.swift; sourceTree = "<group>"; };
 		9896F9B1296D38EC0030AD17 /* BasicCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCard.swift; sourceTree = "<group>"; };
 		9896F9B3296D49A10030AD17 /* BasicCardOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCardOne.swift; sourceTree = "<group>"; };
+		9896F9B5296D5C2D0030AD17 /* MyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				9896F9A1296D09A90030AD17 /* Swift_08_Pratice_StackApp.swift */,
 				9896F9A3296D09A90030AD17 /* ContentView.swift */,
 				9896F9AF296D09DA0030AD17 /* MyCard.swift */,
+				9896F9B5296D5C2D0030AD17 /* MyList.swift */,
 				9896F9B1296D38EC0030AD17 /* BasicCard.swift */,
 				9896F9A5296D09AA0030AD17 /* Assets.xcassets */,
 				9896F9A7296D09AA0030AD17 /* Preview Content */,
@@ -151,6 +154,7 @@
 				9896F9A2296D09A90030AD17 /* Swift_08_Pratice_StackApp.swift in Sources */,
 				9896F9B2296D38EC0030AD17 /* BasicCard.swift in Sources */,
 				9896F9B0296D09DA0030AD17 /* MyCard.swift in Sources */,
+				9896F9B6296D5C2D0030AD17 /* MyList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
